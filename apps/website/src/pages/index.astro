@@ -1,0 +1,38 @@
+---
+import '../styles/global.css';
+const features = [
+  { icon: '✎', title: 'Create', description: 'Decorate text, build profiles and make little things of your own.' },
+  { icon: '✧', title: 'Customize', description: 'Give your digital space an aqua-inspired personality.' },
+  { icon: '𓆝', title: 'Explore', description: 'Discover playful tools, collections and tiny surprises.' },
+];
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#dff6fb" />
+    <meta name="description" content="Akuyrium is a little creative universe full of tools, customization and playful discoveries." />
+    <title>Akuyrium · Your little creative universe</title>
+  </head>
+  <body>
+    <header class="nav wrap">
+      <a class="brand" href="#top" aria-label="Akuyrium home">✧ AKUYRIUM</a>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#features">Features</a><a href="#download">Download</a></nav>
+    </header>
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">AQUA CREATIVE STUDIO</p>
+          <h1>Your little<br /><span>creative universe.</span></h1>
+          <p class="lead">A collection of creative tools, customization and little things to explore.</p>
+          <a class="button" href="#download">Discover Akuyrium <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="orb-scene" aria-label="Decorative aqua bubbles"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span><span class="orb orb-four"></span><span class="fish">𓆝</span></div>
+      </section>
+      <section id="about" class="intro wrap panel"><p class="eyebrow">WELCOME TO AKUYRIUM</p><h2>A small space for big creativity.</h2><p>Akuyrium brings together playful utilities and customization in one cozy digital space. Make something, personalize your corner of the internet, or simply explore.</p></section>
+      <section id="features" class="wrap features"><p class="eyebrow">A LITTLE BIT OF EVERYTHING</p><h2>Make it yours.</h2><div class="feature-grid">{features.map((feature) => <article class="feature panel"><span class="feature-icon">{feature.icon}</span><h3>{feature.title}</h3><p>{feature.description}</p></article>)}</div></section>
+      <section id="download" class="wrap download panel"><p class="eyebrow">COMING TO YOUR DESKTOP & POCKET</p><h2>Akuyrium, wherever you are.</h2><p>Windows, Linux and Android editions are planned. Downloads will appear here when the first public builds are ready.</p><div class="platforms"><span>▣ Windows</span><span>⌘ Linux</span><span>▯ Android</span></div><p class="small">Open source · Community-powered · Built with care</p></section>
+    </main>
+    <footer class="wrap footer"><a class="brand" href="#top">✧ AKUYRIUM</a><span>© {new Date().getFullYear()} Akuyrium contributors</span><a href="https://github.com/" rel="noreferrer">GitHub ↗</a></footer>
+  </body>
+</html>
