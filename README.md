@@ -36,13 +36,13 @@ Akuyrium is being developed with a simple idea in mind:
 
 We want to create an experience that feels welcoming, customizable and accessible across different platforms.
 
-## ✨ Platforms
+## 🫧 Platforms
 
 | Platform | Availability |
 |:--|:--|
-| 🖥️ Windows | 🔒 Coming soon |
-| 🐧 Linux | 🔒 Coming soon |
-| 📱 Android | 🔒 Coming soon |
+| Windows |  Coming soon |
+|  Linux |  Coming soon |
+|  Android |  Coming soon |
 
 *Downloads are not available yet. Release links will be added when the corresponding versions are published.*
 
@@ -68,7 +68,7 @@ The repository will contain the source code, project documentation and resources
 
 Contributions and suggestions are welcome as the project grows.
 
-## 📦 Installation
+## 🫧 Installation
 
 **Akuyrium is not publicly available for installation yet.**
 
