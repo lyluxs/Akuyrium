@@ -90,8 +90,6 @@ Repository: https://github.com/lyluxs/Akuyrium
 
 Akuyrium is intended to be an open-source project.
 
-See the repository's `LICENSE` file for the applicable license and usage terms.
-
 ---
 
 <p align="center">
