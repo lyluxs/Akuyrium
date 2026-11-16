@@ -1079,3 +1079,33 @@ button:active,.app-launch:active,.nav button:active{transform:translateY(1px) sc
 .mobile-nav button.active span{box-shadow:inset 0 1px 3px #fff,0 0 0 2px #7bcde5,0 4px 9px #167ca533}
 .welcome-girl{object-position:center bottom}
 @media(max-width:650px){.mobile-nav button{gap:4px}.mobile-nav button span{font-size:0}}
+
+/* ROUND FRUTIGER AERO CURSORS — desktop */
+@media (hover: hover) and (pointer: fine) {
+  html, body, * {
+    cursor: url("../assets/cursors/roundynormal.cur"), auto;
+  }
+
+  a, button, [role="button"], .nav button, .mobile-nav button,
+  input[type="button"], input[type="submit"], input[type="reset"],
+  select, summary, label[for] {
+    cursor: url("../assets/cursors/roundyhand.cur"), pointer;
+  }
+
+  input:not([type="button"]):not([type="submit"]):not([type="reset"]),
+  textarea, [contenteditable="true"] {
+    cursor: url("../assets/cursors/roundtext.cur"), text;
+  }
+
+  input[type="range"], .resize-handle {
+    cursor: url("../assets/cursors/roundmove.cur"), move;
+  }
+
+  canvas, .crosshair {
+    cursor: url("../assets/cursors/roundprecise.cur"), crosshair;
+  }
+
+  :disabled, [aria-disabled="true"] {
+    cursor: url("../assets/cursors/roundyunavailable.cur"), not-allowed;
+  }
+}
